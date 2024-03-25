@@ -1,17 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
-
-@import url('fonts/Cream Cake.otf');
-@import url('fonts/Roboto-Bold.ttf');
-@import url('fonts/Roboto-Medium.ttf');
-@import url('fonts/Roboto-Regular.ttf');
-
 
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: Regular;
 }
 
 header {
@@ -23,6 +19,8 @@ header {
 header > h1 {
     padding: 50px;
     font-variant: small-caps;
+    font-family: Bold;
+    font-size: 10vh;
 }
 
 header > p {
@@ -44,11 +42,14 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: Bold;
+    font-size: 2em;
 }
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.473);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 section.normal {
