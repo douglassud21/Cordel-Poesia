@@ -3,6 +3,12 @@
     padding: 0px;
 }
 
+@import url('fonts/Cream Cake.otf');
+@import url('fonts/Roboto-Bold.ttf');
+@import url('fonts/Roboto-Medium.ttf');
+@import url('fonts/Roboto-Regular.ttf');
+
+
 html, body {
     min-height: 100vh;
     background-color: darkgray;
